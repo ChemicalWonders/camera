@@ -12,8 +12,6 @@
 		C25584F022D1805600EC6081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25584EE22D1805600EC6081 /* Main.storyboard */; };
 		C25584F222D1805700EC6081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C25584F122D1805700EC6081 /* Assets.xcassets */; };
 		C25584F522D1805700EC6081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25584F322D1805700EC6081 /* LaunchScreen.storyboard */; };
-		C255850022D1805700EC6081 /* cameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25584FF22D1805700EC6081 /* cameraTests.swift */; };
-		C255850B22D1805700EC6081 /* cameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C255850A22D1805700EC6081 /* cameraUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +32,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C25584E722D1805600EC6081 /* camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25584E722D1805600EC6081 /* camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = camera.app; path = "/Users/kevinchan/Documents/iOS/camera/build/Debug-iphoneos/camera.app"; sourceTree = "<absolute>"; };
 		C25584EA22D1805600EC6081 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C25584EC22D1805600EC6081 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C25584EF22D1805600EC6081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C25584F122D1805700EC6081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C25584F422D1805700EC6081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C25584F622D1805700EC6081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C25584FB22D1805700EC6081 /* cameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C25584FF22D1805700EC6081 /* cameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraTests.swift; sourceTree = "<group>"; };
-		C255850122D1805700EC6081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C255850622D1805700EC6081 /* cameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C255850A22D1805700EC6081 /* cameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraUITests.swift; sourceTree = "<group>"; };
-		C255850C22D1805700EC6081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25584FB22D1805700EC6081 /* cameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = cameraTests.xctest; path = "/Users/kevinchan/Documents/iOS/camera/build/Debug-iphoneos/cameraTests.xctest"; sourceTree = "<absolute>"; };
+		C255850622D1805700EC6081 /* cameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = cameraUITests.xctest; path = "/Users/kevinchan/Documents/iOS/camera/build/Debug-iphoneos/cameraUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,20 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				C25584E922D1805600EC6081 /* camera */,
-				C25584FE22D1805700EC6081 /* cameraTests */,
-				C255850922D1805700EC6081 /* cameraUITests */,
-				C25584E822D1805600EC6081 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		C25584E822D1805600EC6081 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C25584E722D1805600EC6081 /* camera.app */,
-				C25584FB22D1805700EC6081 /* cameraTests.xctest */,
-				C255850622D1805700EC6081 /* cameraUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		C25584E922D1805600EC6081 /* camera */ = {
@@ -105,24 +86,6 @@
 				C25584F622D1805700EC6081 /* Info.plist */,
 			);
 			path = camera;
-			sourceTree = "<group>";
-		};
-		C25584FE22D1805700EC6081 /* cameraTests */ = {
-			isa = PBXGroup;
-			children = (
-				C25584FF22D1805700EC6081 /* cameraTests.swift */,
-				C255850122D1805700EC6081 /* Info.plist */,
-			);
-			path = cameraTests;
-			sourceTree = "<group>";
-		};
-		C255850922D1805700EC6081 /* cameraUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C255850A22D1805700EC6081 /* cameraUITests.swift */,
-				C255850C22D1805700EC6081 /* Info.plist */,
-			);
-			path = cameraUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +176,7 @@
 				Base,
 			);
 			mainGroup = C25584DE22D1805600EC6081;
-			productRefGroup = C25584E822D1805600EC6081 /* Products */;
+			productRefGroup = C25584DE22D1805600EC6081;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -265,7 +228,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C255850022D1805700EC6081 /* cameraTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +235,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C255850B22D1805700EC6081 /* cameraUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
